@@ -38,9 +38,9 @@
 <body class="lato">
     <header class="container mx-auto">
         <!-- navbar section -->
-        <nav class="navbar md:bg-[#F85559]  rounded-full mt-12 mb-12">
-            <div class="navbar-center hidden md:flex">
-              <ul class="menu menu-horizontal text-lg font-medium text-white px-1">
+        <nav class=" rounded-full mt-10 mb-12 navbar md:bg-[#F85559] ">
+            <div class="navbar-center  md:flex hidden">
+              <ul class="menu menu-horizontal  px-2 text-lg font-medium text-white">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -85,6 +85,107 @@
               </div> 
             </div>
           </nav>
+          <!-- banner section -->
+          <section>
+            <div class=" z-1 relative carousel w-full  min-h-[230px] md:min-h-[600px] rounded-lg mx-auto  ">
+              <!-- slider one -->
+              <div id="slide1" class="carousel-item relative w-full rounded-lg min-h-[230px]">
+                <div class="hero min-h-[230px] md:min-h-[600px] rounded-lg mx-auto w-screen"
+                  style="background-image: url(./images/banner1.png);">
+                  <div class="hero-overlay bg-opacity-60"></div>
+                  <div class="hero-content text-center text-neutral-content">
+                    <div class="">
+                      <h1 class="mb-5 text-xl md:text-7xl font-extrabold">Exotic tastes at your <br>doorstep</h1>
+                      <p class="mb-5 text-sm md:text-lg text-white font-medium">We supply highly quality organic products</p>
+                      <button class="btn bg-[#F85559] border-none text-white font-bold text-sm md:text-xl">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide4" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white ">❮</a>
+                  <a href="#slide2" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white">❯</a>
+                </div>
+              </div>
+              <!-- slider two -->
+              <div id="slide2" class="carousel-item relative w-full  rounded-lg min-h-[230px]">
+                <div class="hero min-h-[230px] md:min-h-[600px] rounded-lg mx-auto w-screen"
+                  style="background-image: url(./images/banner2.png);">
+                  <div class="hero-overlay bg-opacity-60"></div>
+                  <div class="hero-content text-center text-neutral-content">
+                    <div class="">
+                      <h1 class="mb-5 text-xl md:text-7xl font-extrabold">Exotic tastes at your <br>doorstep</h1>
+                      <p class="mb-5 text-sm md:text-lg text-white font-medium">We supply highly quality organic products</p>
+                      <button class="btn bg-[#F85559] border-none text-white font-bold text-sm md:text-xl">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white ">❮</a>
+                  <a href="#slide3" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white ">❯</a>
+                </div>
+              </div>
+              <!-- slider three -->
+              <div id="slide3" class="carousel-item relative w-full  rounded-lg min-h-[230px]">
+                <div class="hero min-h-[230px] md:min-h-[600px] rounded-lg mx-auto w-screen"
+                  style="background-image: url(./images/banner3.png);">
+                  <div class="hero-overlay bg-opacity-60"></div>
+                  <div class="hero-content text-center text-neutral-content">
+                    <div class="">
+                      <h1 class="mb-5 text-xl md:text-7xl font-extrabold">Exotic tastes at your <br>doorstep</h1>
+                      <p class="mb-5 text-sm md:text-lg text-white font-medium">We supply highly quality organic products</p>
+                      <button class="btn bg-[#F85559] border-none text-white font-bold text-sm md:text-xl">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white ">❮</a>
+                  <a href="#slide4" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white ">❯</a>
+                </div>
+              </div>
+              <!-- slider four -->
+              <div id="slide4" class="carousel-item relative w-full  rounded-lg min-h-[230px]">
+                <div class="hero min-h-[230px] md:min-h-[600px] rounded-lg mx-auto w-screen"
+                  style="background-image: url(./images/banner4.png);">
+                  <div class="hero-overlay bg-opacity-60"></div>
+                  <div class="hero-content text-center text-neutral-content">
+                    <div class="">
+                      <h1 class="mb-5 text-xl md:text-7xl font-extrabold">Exotic tastes at your <br>doorstep</h1>
+                      <p class="mb-5 text-sm md:text-lg text-white font-medium">We supply highly quality organic products</p>
+                      <button class="btn bg-[#F85559] border-none text-white font-bold text-sm md:text-xl">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white ">❮</a>
+                  <a href="#slide1" class="btn btn-circle border-none bg-[#121212] opacity-75 text-white ">❯</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- fruits section -->
+          <section class="rounded-lg relative z-20 bg-white shadow-lg hidden  justify-around items-center text-center font-medium md:flex text-lg md:w-3/4 lg:w-3/5 mx-auto md:px-10 lg:px-20 py-12 -mt-28 ">
+            <div>
+              <img src="./images/fruit1.png" alt="">
+              <h6>Strawberry</h6>
+            </div>
+            <div>
+              <img src="./images/fruit2.png" alt="">
+              <h6>Orange</h6>
+            </div>
+            <div>
+              <img src="./images/fruit3.png" alt="">
+              <h6>Mango</h6>
+            </div>
+            <div>
+              <img src="./images/fruit4.png" alt="">
+              <h6>Strawberry</h6>
+            </div>
+            <div>
+              <img src="./images/fruit5.png" alt="">
+              <h6>Mango</h6>
+            </div>
+          </section>
         </header>
+        
        </body>
 </html>
